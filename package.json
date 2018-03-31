@@ -1,0 +1,12 @@
+{
+  "name": "gl-azure-ghost-docker",
+  "version": "0.0.1",
+  "description": "Ghost for Web App For Container and Blob Storage",
+  "license": "MIT",
+  "scripts": {
+    "build": "docker build . --tag sandorfr/azure-ghost:experimental"
+  },
+  "dependencies": {
+    "ghost-azure-blob-storage": "^2.0.2"
+  }
+}

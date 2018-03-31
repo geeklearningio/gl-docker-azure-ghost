@@ -1,0 +1,2 @@
+# Run Ghost On Azure
+
