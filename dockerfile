@@ -4,3 +4,4 @@ ADD /node_modules/ghost-azure-blob-storage /var/lib/ghost/content/adapters/stora
 ADD /node_modules /var/lib/ghost/content/adapters/storage/azureblobstorage/node_modules
 COPY --from=ghost:alpine /var/lib/ghost/current/index.js /var/lib/ghost/current/index.core.js
 ADD /index.js /var/lib/ghost/current/index.js
+RUN RUN ln -s /var/lib/ghost/content/themes /home/ghost-themes
